@@ -1,0 +1,18 @@
+{
+    "url" : "https://automationexercise.com/",
+    "name" : "Manohar V",
+    "email" : "manohar.v@gmail.com",
+    "password" : "password@123",
+    "date" : "28",
+    "month" : "April",
+    "year" : "1985",
+    "first_name" : "Manohar",
+    "last_name" : "V",
+    "company" : "Dell",
+    "address" : "Banashankari",
+    "country" : "India",
+    "state" : "Karnataka",
+    "city" : "Bengaluru",
+    "zipcode" : "560026",
+    "mobile" : "9876543210"
+}
