@@ -34,7 +34,7 @@ class NewUserSignup{
         this.signupName = page.getByPlaceholder('Name', { exact: true })
         this.signupEmail = page.locator("input[data-qa='signup-email']")
         this.signupButton = page.locator("button[data-qa='signup-button']")
-        this.gender = page.getByLabel('Mr.', { exact: true })
+        this.gender = page.locator('#id_gender1')
         this.password = page.getByLabel('Password *', { exact: true })
         this.day = page.locator('#days')
         this.month = page.locator('#months')
