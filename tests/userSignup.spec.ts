@@ -1,6 +1,7 @@
 import { Page,test } from "@playwright/test";
 import NewUserSignup from "../POM/NewUserSignup.page"
 
+
 test("Signup of New User test script",async ({page})=>{
     let newUserSignup = new NewUserSignup(page)
 
