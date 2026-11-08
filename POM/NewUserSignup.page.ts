@@ -1,5 +1,6 @@
 import {Page,Locator} from "@playwright/test"
 import data from "../DDT/userData.json"
+import generateRandomEmail from "../utils/randomString";
 
 class NewUserSignup{
     page:Page
@@ -61,7 +62,7 @@ class NewUserSignup{
 
     async enterSignupDetails(){
         await this.signupName.fill(data.name)
-        await this.signupEmail.fill(data.email)
+        await this.signupEmail.fill(generateRandomEmail())
         await this.signupButton.click()
     }
 
